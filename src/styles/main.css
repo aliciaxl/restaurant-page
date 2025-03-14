@@ -1,0 +1,31 @@
+#backgroundImage {
+    background-image: url("../food.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: 20vh auto 0;
+    max-width: 1000px;
+}
+
+button {
+    display: flex;
+    background-color: transparent;
+    color: white;
+    border: .5px solid white;
+    padding: 12px 28px;
+    display: inline-block;
+    letter-spacing: .2rem;
+}
+
+.blur-background {
+    filter: blur(2px);
+}
