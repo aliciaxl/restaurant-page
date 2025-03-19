@@ -1,0 +1,85 @@
+#popup {
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: 85%;
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 48px;
+    margin: 0px;
+    overflow: auto;
+}
+
+.exit-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.popup-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    letter-spacing: .3rem;
+    font-weight: 100;
+    padding-bottom: 16px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    border-bottom: 3px solid black;
+}
+
+
+#menu-items {
+    text-align: center;
+    font-size: 11px;
+
+}
+
+#about-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding-top: 40px;
+}
+
+#about-info{
+    text-align: center;
+    letter-spacing: .1rem;
+    font-size: 10px;
+    line-height: 1.6;
+    padding-top: 8px;
+}
+
+#about-img {
+    height: 400px;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 1px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+    border-radius: none;
+}
+
+/* Style the thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+    background-color: #4d4d4d;
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
